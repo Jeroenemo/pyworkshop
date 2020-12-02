@@ -1,6 +1,6 @@
 # 66 characters is perfect, no more than 79
 
-canvas.drawString(x, y,
+canvas.drawString(x, y, 
     'Please press {}' .format(key))
 
 # What if you introduce a name instead?
