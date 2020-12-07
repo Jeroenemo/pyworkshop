@@ -1,20 +1,19 @@
-# 66 characters is perfect, no more than 79
+# # 66 characters is perfect, no more than 79
 
-canvas.drawString(x, y, 
-    'Please press {}' .format(key))
+# canvas.drawString(x, y, 
+#     'Please press {}' .format(key))
 
-# What if you introduce a name instead?
+# # What if you introduce a name instead?
 
-message = 'Please press {}' .format(key)
-canvas.drawstring(x, y, message)
+# message = 'Please press {}' .format(key)
+# canvas.drawstring(x, y, message)
 
 
 
-widget.reset(True)  # forces re-draw
+# widget.reset(True)  # forces re-draw
 
-# VS
+# # VS
 
-force_redraw = True
-widget.reset(force_redraw)
-
+# force_redraw = True
+# widget.reset(force_redraw)
 
